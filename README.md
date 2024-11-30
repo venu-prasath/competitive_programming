@@ -5,3 +5,4 @@ Programming language used is C++. I am looking to actively submit new submission
 
 Table of Contents
 1. test/ - Sample code for code reuse
+2. sorting/ - Sample code for basic sorting
