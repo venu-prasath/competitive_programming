@@ -46,4 +46,26 @@ main() {
       printf("%d\n",i);
     }
 
+    //sorting
+
+    vector<int> v = {4,2,5,3,5,8,3};
+    sort(v.begin(), v.end());
+
+    sort(v.rbegin(), v.rend());
+
+    int n = 5;
+    int arr[] = {5,4,3,2,1};
+    std::sort(arr, arr+n);
+
+    std::string s = "monkey";
+    std::sort(s.begin(), s.end());
+
+    // sort with comparison
+  vector<pair<int,int>> vv;
+  vv.push_back({1,5});
+  vv.push_back({2,3});
+  vv.push_back({1,2});
+  std::sort(vv.begin(), v.end())
+    
+
 }
