@@ -26,4 +26,9 @@ int main() {
   for(int i=0; i<vv.size(); i++) {
     cout << vv[i].first << ", " << vv[i].second << "\n";
   }
+
+  reverse(vv.begin(), vv.end());
+  random_shuffle(vv.begin(), vv.end());
+
+
 }
